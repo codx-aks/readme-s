@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Experience - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --primary: #2563eb;
+            --secondary: #3b82f6;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --accent: #ef4444;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+            position: relative;
+        }
+
+        .experience-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            border-left: 4px solid var(--primary);
+        }
+
+        .experience-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card-subtitle {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .card-content {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .highlight-list {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        .highlight-list li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .highlight-list li::before {
+            content: "•";
+            color: var(--primary);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .tech-tag {
+            display: inline-block;
+            background: rgba(37, 99, 235, 0.1);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin: 5px;
+        }
+
+        .tech-tags {
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .experience-card {
+                padding: 20px;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+
+        .nav-section {
+            position: sticky;
+            top: 0;
+            background: var(--light);
+            padding: 15px 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            color: var(--primary);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: var(--primary);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-section">
+        <div class="nav-links">
+            <a href="#professional" class="nav-link">Professional Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#leadership" class="nav-link">Leadership</a>
+            <a href="#activities" class="nav-link">Activities</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Professional Experience Section -->
+        <section id="professional" class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-card">
+                <h3 class="card-title">Proctor & Gamble - Information Technology Spotlight</h3>
+                <div class="card-subtitle">April 2024 - May 2024</div>
+                <div class="card-content">
+                    Selected as one of the Top 20 participants nationwide for the prestigious P&G Spotlight event in Mumbai. 
+                    Engaged in intensive learning sessions on IT innovations, business strategies, and leadership.
+                </div>
+                <div class="card-content">
+                    Ideated & Engineered an advanced computer vision system at P&G to autonomously analyze product shelf 
+                    occupancy, integrating market share calculations to optimize distribution and assess shelf space adequacy in retail.
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <h3 class="card-title">Office of Dean (NITT Research and Consultancy)</h3>
+                <div class="card-subtitle">March 2024 - July 2024</div>
+                <div class="card-content">
+                    Developed an unified file management mobile app for Office of Dean (Research and Consultancy) and Implemented
+                    flexible file entry facilities for the office staff with user based permission system and generation of unique QR code
+                    for every file, enabling an authorised user to view the file history and information by scanning it. Projected to
+                    Improve staff efficiency by reducing possibilities of error during file tracking and data entry.
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <h3 class="card-title">Software Developer, DELTA FORCE</h3>
+                <div class="card-content">
+                    Contributed to NIT Trichy's official programming club through various technical solutions:
+                    <ul class="highlight-list">
+                        <li>Developed DPay - handling 24+ lakhs worth of transactions and 10,000+ requests daily</li>
+                        <li>Created DAuth custom authorisation service</li>
+                        <li>Managed WebOps Team for major fests accessed by 20,000+ students globally</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section id="leadership" class="section">
+            <h2 class="section-title">Leadership Roles</h2>
+            
+            <div class="experience-card">
+                <h3 class="card-title">Head of Guest Lectures and Proshows, ORIENTATION 2024</h3>
+                <div class="card-content">
+                    <ul class="highlight-list">
+                        <li>Led team of 15 to invite prominent figures including CEOs and celebrities</li>
+                        <li>Managed ₹20 lakhs budget for 20+ events</li>
+                        <li>Conducted 7+ Guest Lectures and 3+ proshows for 1200+ freshers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <h3 class="card-title">Founding Team Lead - FESTEMBER Alumni Relations</h3>
+                <div class="card-content">
+                    <ul class="highlight-list">
+                        <li>Drove CSR partnerships and alumni engagement initiatives</li>
+                        <li>Forged collaborations with NGOs and corporate stakeholders</li>
+                        <li>Developed structured engagement models for sustainable impact</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="section">
+            <h2 class="section-title">Sports & Co-Curricular Activities</h2>
+            
+            <div class="experience-card">
+                <h3 class="card-title">Sports Achievements</h3>
+                <ul class="highlight-list">
+                    <li>U-14 District Level Finalist in Air Rifle Shooting Championship (2017)</li>
+                    <li>Captain of Handball team - Gold victories in Kovai Sahodaya Tournament</li>
+                    <li>9th position nationally in U-9 FIDE Rating Tournament (2014)</li>
+                    <li>20+ District and State Level Chess Tournament victories</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h3 class="card-title">Co-Curricular Activities</h3>
+                <ul class="highlight-list">
+                    <li>CCA All Star of the Year (3 times, 2014-2018)</li>
+                    <li>Class Representative (Semesters 2 & 3)</li>
+                    <li>Active NSS participant in community service projects</li>
+                    <li>Led various social impact initiatives in Tiruchirapalli region</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animate cards on scroll
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        document.querySelectorAll('.experience-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'all 0.6s ease-out';
+            observer.observe(card);
+        });
+
+        // Sticky navigation highlight
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
