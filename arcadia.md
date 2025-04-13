@@ -1,4 +1,4 @@
-### Arcadia Rivals — Strategic Web-Based Multiplayer Game
+## Arcadia Rivals — Strategic Web-Based Multiplayer Game
 
 - -> Programmed a robust battle simulator in Golang capable of generating battle logs in under 500ms for seamless gameplay.
 - -> Designed and implemented a concurrent marketplace in Golang to support real-time player transactions with efficient algorithms and backend logic.
