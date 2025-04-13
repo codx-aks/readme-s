@@ -1,3 +1,0 @@
-Dhexagon - Employee Management and Caller Sentiment/Problem Analysis Tool for Help-Desks :
-Ideated and developed algorithms and machine learning models to analyse caller emotions using speech recognition and audio feature extraction and combined these results with BERT-based call-transcript classifier for content classification ,call ratings and insight extraction with potential to improve HR analytics efficiency by over 30%. 
-Created models to identify consumer issues & product or supply chain issues, enhancing global business values & operations,and calculated metrics like employee performance and Consumer satisfaction.
